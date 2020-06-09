@@ -16,7 +16,7 @@ namespace HttpTriggerVerify
         }
     }
 
-    public class BloggingContextFactory : IDesignTimeDbContextFactory<EmployeeContext>
+    public class EmployeeContextFactory : IDesignTimeDbContextFactory<EmployeeContext>
     {
         public EmployeeContext CreateDbContext(string[] args)
         {
