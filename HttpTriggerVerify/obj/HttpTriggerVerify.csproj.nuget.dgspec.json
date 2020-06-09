@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anuphosur/Projects/HttpTriggerVerify/AzureFunctionsHttpTrigger/HttpTriggerVerify/HttpTriggerVerify.csproj": {}
+  },
+  "projects": {
+    "/Users/anuphosur/Projects/HttpTriggerVerify/AzureFunctionsHttpTrigger/HttpTriggerVerify/HttpTriggerVerify.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anuphosur/Projects/HttpTriggerVerify/AzureFunctionsHttpTrigger/HttpTriggerVerify/HttpTriggerVerify.csproj",
+        "projectName": "HttpTriggerVerify",
+        "projectPath": "/Users/anuphosur/Projects/HttpTriggerVerify/AzureFunctionsHttpTrigger/HttpTriggerVerify/HttpTriggerVerify.csproj",
+        "packagesPath": "/Users/anuphosur/.nuget/packages/",
+        "outputPath": "/Users/anuphosur/Projects/HttpTriggerVerify/AzureFunctionsHttpTrigger/HttpTriggerVerify/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/anuphosur/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Storage": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
