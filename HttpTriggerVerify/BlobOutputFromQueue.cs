@@ -7,6 +7,7 @@ namespace HttpTriggerVerify
 {
     public class BlobOutputFromQueue
     {
+        
         [FunctionName("QueueTrigger")]
         public void QueueTriggerAndBlobOutput(
             [QueueTrigger("order", Connection = "AzureWebJobsStorage")] Employee employee,
